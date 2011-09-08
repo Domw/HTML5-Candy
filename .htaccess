@@ -1,3 +1,4 @@
+#If we're after some hardcore optimisations the least we can do is gzip it, G!
 #Gzip via http://salscode.com/web-resources/gzip-htaccess
 <ifmodule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
