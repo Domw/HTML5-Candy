@@ -1,0 +1,9 @@
+#If we're after some hardcore optimisations the least we can do is gzip it, G!
+#Gzip via http://salscode.com/web-resources/gzip-htaccess
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+#End Gzip
+
+#Set character encoding for HTML files in here rather than in-page
+AddCharset UTF-8 .html
